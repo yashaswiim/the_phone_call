@@ -1,5 +1,6 @@
 var done;
 //using the jQuery ui-draggable function
+
 $(function() {
 	$(".slider img").draggable({
 		axis: 'x', //restrict movement to x-axis
@@ -8,7 +9,7 @@ $(function() {
 		//callback fired when the mouse button is released
 		stop: function(event, ui) {
 			//if successful, i.e., the arrow is dragged to the end
-			if (ui.position.left > 190) {
+			if (ui.position.left > 0.75*$(".slider").width()) {
 				//set the flag to true
 				done = true;
 			}
