@@ -30,7 +30,7 @@ h1{
 
 .phone img{
   height: 100vh;
-  width: 100%;
+  width: auto;
 }
 
 /* --------------Unlock Panel----------------- */
