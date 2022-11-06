@@ -11,7 +11,7 @@ let c1 = document.getElementById('c1');
 let c2 = document.getElementById('c2');
 let c3 = document.getElementById('c3');
 
-let speed = 1.3;
+let speed = 1.0;
 
 let animation;
 
@@ -96,14 +96,14 @@ function displayCharacters(){
 
   if(currentTime == 88500){
     c3.style.visibility = "hidden";
+    c3.src = "assets/davidOff.png";
   }
 
   if(currentTime == 104500){
-    c3.src = "assets/davidOff.png";
     c3.style.visibility = "visible";
   }
 
-  if(currentTime == 130000){
+  if(currentTime == 125000){
     c2.style.visibility = "visible";
   }
 
@@ -135,12 +135,13 @@ function displayCharacters(){
     c1.style.visibility = "hidden";
     c2.style.visibility = "hidden";
     c3.style.visibility = "hidden";
+    c3.src = "assets/mcdonaldOff.png";
     bubble1.changeVel(0.125);
     bubble2.changeVel(0.125);
     bubble3.changeVel(0.125);
   }
 
-  if(currentTime == 208000){
+  if(currentTime == 198000){
     bubble1.changeVel(0.25);
     c1.style.visibility = "visible";
   }
