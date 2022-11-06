@@ -104,6 +104,7 @@ h1{
 #imgPhone{
   max-height: 60vh;
   margin: auto;
+  max-width: 100%;
 }
 
 #imageContainer{
