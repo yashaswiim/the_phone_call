@@ -1,0 +1,121 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow:hidden;
+}
+
+body{
+  background: #F86C49;
+}
+
+h1{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* =====================HOME PAGE======================== */
+
+/* --------------Phone Screen----------------- */
+
+.phone{
+  margin: 0 auto;
+  width:fit-content;
+  position: relative;
+  background-image: url('./assets/screen.png');
+  background-size: 95% 95%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.phone img{
+  height: 100vh;
+}
+
+/* --------------Unlock Panel----------------- */
+
+.unlock{
+  position: absolute;
+  margin: 0 auto;
+  bottom: 20%;
+  left: 0;
+  right: 0;
+  width: fit-content;
+}
+
+.unlock h1{
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  letter-spacing: 0.2rem;
+  padding-bottom: 0.8rem;
+}
+
+.slider img{
+ width: 1.6rem; 
+ height: 100%;
+ margin: 0.2rem;
+ margin-bottom: 0;
+}
+
+.slider{
+  background: rgba(255,255,255,0.5);
+  border-radius: 50px;
+}
+
+/* =====================AUDIO PAGE======================== */
+
+.wrapper{
+  display: flex;
+  flex-direction: column;
+}
+
+#title{
+  font-size: 6em;
+  padding-top: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: center;
+}
+
+#phoneContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#buttonContainer{
+  position: absolute;
+}
+
+#bPlayPause{
+  background: none;
+  border: none;
+}
+
+#bPlayPause:hover{
+  cursor: pointer;
+}
+
+#imgPlayPause{
+  height: 4vh;
+}
+
+#imgPhone{
+  max-height: 60vh;
+  margin: auto;
+}
+
+#imageContainer{
+  position: absolute;
+}
+
+.imgCharacter{
+  position: absolute;
+  height: 30vh;
+  width: 30vh;
+  z-index: -1;
+}
+
+
+
