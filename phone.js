@@ -11,7 +11,7 @@ let c1 = document.getElementById('c1');
 let c2 = document.getElementById('c2');
 let c3 = document.getElementById('c3');
 
-let speed = 2.3;
+let speed = 1.3;
 
 let animation;
 
